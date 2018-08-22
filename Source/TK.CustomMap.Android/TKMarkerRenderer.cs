@@ -9,15 +9,28 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Com.Google.Maps.Android.Clustering.View;
+using Android.Gms;
+using Android.Gms.Common;
+using Android.Gms.Actions;
+using Android.Gms.Ads;
+using Android.Gms.Auth;
+using Android.Gms.Dynamic;
+using Android.Gms.Dynamite;
+using Android.Gms.Extensions;
+using Android.Gms.Iid;
+using Android.Gms.Internal;
+using Android.Gms.Location;
+using Android.Gms.Security;
+using Android.Gms.Tasks;
 using Android.Gms.Maps;
-using Com.Google.Maps.Android.Clustering;
 using Android.Gms.Maps.Model;
 using Java.Lang;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using Xamarin.Forms.Platform.Android;
+using Com.Google.Maps.Android.Clustering.View;
 using Com.Google.Maps.Android.UI;
+using Com.Google.Maps.Android.Clustering;
 
 namespace TK.CustomMap.Droid
 {

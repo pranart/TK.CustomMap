@@ -1,9 +1,10 @@
 ﻿using Android.Content;
 using Android.Gms.Maps.Model;
-using Com.Google.Maps.Android.Clustering;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using Xamarin.Forms.Platform.Android;
+using Android.Gms;
+using Com.Google.Maps.Android.Clustering;
 
 namespace TK.CustomMap.Droid
 {

@@ -19,9 +19,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 using Color = Xamarin.Forms.Color;
 using System.Collections;
-using Com.Google.Maps.Android.Clustering;
 using Android.OS;
 using Android.Content;
+using Com.Google.Maps.Android.Clustering;
 
 [assembly: ExportRenderer(typeof(TKCustomMap), typeof(TKCustomMapRenderer))]
 namespace TK.CustomMap.Droid
